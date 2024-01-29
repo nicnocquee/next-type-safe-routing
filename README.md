@@ -24,7 +24,7 @@ export const Routes = {
 import Link from 'next/link'
 import {Routes} from '../../routes.ts'
 
-<Link href={Routes.home({orgId: 'g4eion3e3'})} />
+<Link href={Routes.home({orgId: 'someId'})} />
 ```
 
 ## Developing
