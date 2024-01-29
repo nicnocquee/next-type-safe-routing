@@ -10,12 +10,20 @@
     "plugin:eslint-comments/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:import/typescript",
-    "plugin:functional/lite",
-    "prettier",
-    "prettier/@typescript-eslint"
+    "plugin:prettier/recommended"
   ],
   "globals": { "BigInt": true, "console": true, "WebAssembly": true },
   "rules": {
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "warn", 
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ],
+    "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "eslint-comments/disable-enable-pair": [
       "error",
