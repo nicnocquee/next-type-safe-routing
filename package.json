@@ -1,6 +1,5 @@
 {
   "name": "@nicnocquee/next-type-safe-routing",
-  "private": "false",
   "version": "0.0.2",
   "description": "Utility to make next.js routing type safe.",
   "main": "build/main/index.js",
